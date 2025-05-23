@@ -3,16 +3,16 @@ const chats = [
       isGroupChat: false,
       users: [
         {
-          name: "John Doe",
-          email: "john@example.com",
+          name: "Emili",
+          email: "emili@example.com",
         },
         {
-          name: "Piyush",
-          email: "piyush@example.com",
+          name: "Brown",
+          email: "brown@example.com",
         },
       ],
       _id: "617a077e18c25468bc7c4dd4",
-      chatName: "John Doe",
+      chatName: "Emili",
     },
     {
       isGroupChat: false,
@@ -22,8 +22,8 @@ const chats = [
           email: "guest@example.com",
         },
         {
-          name: "Piyush",
-          email: "piyush@example.com",
+          name: "Brown",
+          email: "brown@example.com",
         },
       ],
       _id: "617a077e18c25468b27c4dd4",
@@ -33,27 +33,27 @@ const chats = [
       isGroupChat: false,
       users: [
         {
-          name: "Anthony",
-          email: "anthony@example.com",
+          name: "Tony",
+          email: "tony@example.com",
         },
         {
-          name: "Piyush",
-          email: "piyush@example.com",
+          name: "Brown",
+          email: "brown@example.com",
         },
       ],
       _id: "617a077e18c2d468bc7c4dd4",
-      chatName: "Anthony",
+      chatName: "Tony",
     },
     {
       isGroupChat: true,
       users: [
         {
-          name: "John Doe",
-          email: "jon@example.com",
+          name: "Emili",
+          email: "emili@example.com",
         },
         {
-          name: "Piyush",
-          email: "piyush@example.com",
+          name: "Brown",
+          email: "brown@example.com",
         },
         {
           name: "Guest User",
@@ -75,8 +75,8 @@ const chats = [
           email: "jane@example.com",
         },
         {
-          name: "Piyush",
-          email: "piyush@example.com",
+          name: "Brown",
+          email: "brown@example.com",
         },
       ],
       _id: "617a077e18c25468bc7cfdd4",
@@ -86,12 +86,12 @@ const chats = [
       isGroupChat: true,
       users: [
         {
-          name: "John Doe",
-          email: "jon@example.com",
+          name: "emili",
+          email: "emili@example.com",
         },
         {
-          name: "Piyush",
-          email: "piyush@example.com",
+          name: "Brown",
+          email: "brown@example.com",
         },
         {
           name: "Guest User",
