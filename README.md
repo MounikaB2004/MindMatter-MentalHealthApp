@@ -1,36 +1,31 @@
-# MentalHealthApp  
+MindMatter is a full-stack mental health platform designed to promote emotional well-being and self-awareness. Built using the MERN stack (MongoDB, Express.js, React, Node.js), the application provides a safe and interactive space for users to monitor their mental health, express emotions anonymously, and access basic AI-driven support.
 
-## https://mindfulness-mental-health.netlify.app/
+The platform features a secure login system using cookie sessions, a mood tracker to record and reflect on emotions over time, an AI chatbot therapist for conversational support, and a mood quiz that provides feedback based on user responses. Additionally, users can share their feelings anonymously with a community wall, enhancing social connection and support.
 
-MentalHealthApp is a comprehensive mental health application built using the MERN stack. It offers several features to help users manage their mental well-being, including cookie session login, a mood tracker, an AI therapist, a mood quiz, and anonymous sharing.
+🔶 Key Features:
 
-## Features
+- Cookie Session Login: Prevents unauthorized access and maintains secure user sessions.
 
-### Cookie Session Login
-- Secure user authentication using cookie sessions to maintain user login states across different sessions. So also with an unauthorised acces you can't access certain pages of the application. 
+- Mood Tracker: Lets users log and monitor daily moods to identify patterns.
 
-### Mood Tracker
-- Tracks your daily mood and logs it in the database, allowing users to monitor their mental health over time.
+- AI Therapist: Uses the Gemini API to simulate helpful conversations and offer support.
 
-### AI Therapist
-- Chat with an AI therapist to discuss your feelings and get instant responses. This feature uses the Gemini API for natural language processing to provide helpful advice and support.
+- Mood Quiz: Provides users with personalized feedback using natural language analysis.
 
-### Mood Quiz
-- Take a quiz to understand your current mood better. The responses are analyzed using the Gemini API, and a personalized feedback report is generated based on your answers.
+- Anonymous Sharing: Encourages users to express emotions without revealing identity.
 
-### Anonymous Sharing
-- Share your thoughts and feelings anonymously with the community. This feature ensures that users can express themselves freely without revealing their identity.
+- Full CRUD Operations: For managing user data, mood entries, and shared content.
 
-### CRUD Functionality
-- Full CRUD (Create, Read, Update, Delete) operations for user management and article management, allowing users to manage their profiles and content seamlessly.
+🔶 Technologies Used:
 
-## Technologies Used
+MongoDB – Database for users, moods, and posts
 
-- **MongoDB:** Database to store user data, mood logs, and shared posts.
-- **Express.js:** Backend framework to handle API requests and server-side logic.
-- **React:** Frontend library to build a responsive and interactive user interface.
-- **Node.js:** Runtime environment to execute JavaScript on the server.
-- **HTML, CSS, JavaScript:** Core web technologies for building the frontend.
-- **RapidAPI:** Platform used to integrate the Gemini API for AI therapist and quiz responses.
-- **Gemini API:** Used for natural language processing to power the AI therapist and generate quiz feedback.
+Express.js – Backend API and routing
 
+React – Frontend for dynamic UI
+
+Node.js – Server-side runtime
+
+Gemini API via RapidAPI – AI and NLP features
+
+HTML, CSS, JavaScript – Frontend styling and interactivity
